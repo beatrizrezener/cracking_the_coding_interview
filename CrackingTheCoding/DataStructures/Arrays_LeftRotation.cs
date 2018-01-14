@@ -1,9 +1,9 @@
 ﻿using System;
-namespace CrackingTheCoding.ArraysProblem
+namespace CrackingTheCoding.DataStructures
 {
-    public class ArraysLeftRotation
+    public class Arrays_LeftRotation
     {
-        public ArraysLeftRotation()
+        public Arrays_LeftRotation()
         {
             string[] tokens_n = Console.ReadLine().Split(' ');
             int nIntegers = Convert.ToInt32(tokens_n[0]);

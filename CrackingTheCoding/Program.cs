@@ -1,13 +1,14 @@
 ﻿using System;
-using CrackingTheCoding.ArraysProblem;
+using System.Linq;
+using CrackingTheCoding.DataStructures;
 
 namespace CrackingTheCoding
 {
     class MainClass
     {
-        public static void Main(string[] args)
+        static void Main(String[] args)
         {
-          var ALR = new ArraysLeftRotation();  
+            var a = new Strings_MakingAnagrams();
         }
     }
 }

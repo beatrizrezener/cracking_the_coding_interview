@@ -34,11 +34,12 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ArraysProblem\ResizableArray.cs" />
-    <Compile Include="ArraysProblem\ArraysLeftRotation.cs" />
+    <Compile Include="DataStructures\ResizableArray.cs" />
+    <Compile Include="DataStructures\Arrays_LeftRotation.cs" />
+    <Compile Include="DataStructures\Strings_MakingAnagrams.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ArraysProblem\" />
+    <Folder Include="DataStructures\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
